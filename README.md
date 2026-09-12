@@ -35,7 +35,7 @@ mvn --version
 
 **Actividad:** copia las versiones que obtuviste en tus apuntes o en el reporte de la práctica.
 
-- [ ] Confirmé que Git, `java`, `javac` y Maven están disponibles.
+- [x] Confirmé que Git, `java`, `javac` y Maven están disponibles.
 
 Los ejemplos están en `src/`. La carpeta `bin/` se usa solamente para archivos compilados y está excluida por `.gitignore`.
 
@@ -54,8 +54,8 @@ Observa que `javac` genera archivos `.class` en `bin/`, mientras que `java` ejec
 
 **Actividad:** modifica el mensaje de `Saludo.java` o agrega una operación a `Calculadora.java`, vuelve a compilar y ejecuta nuevamente la clase correspondiente.
 
-- [ ] Compilé y ejecuté los dos ejemplos.
-- [ ] Realicé una modificación en un archivo `.java` y comprobé su resultado.
+- [x] Compilé y ejecuté los dos ejemplos.
+- [x] Realicé una modificación en un archivo `.java` y comprobé su resultado.
 
 ## 3. Preparar el repositorio
 
@@ -77,9 +77,9 @@ git diff --cached
 
 **Actividad:** prepara únicamente los cuatro archivos indicados. Antes de continuar, verifica que `git diff --cached` muestre tus cambios y que no incluya archivos `.class`.
 
-- [ ] Revisé el estado inicial con `git status`.
-- [ ] Agregué los archivos fuente y de configuración con `git add`.
-- [ ] Revisé el contenido preparado con `git diff --cached`.
+- [x] Revisé el estado inicial con `git status`.
+- [x] Agregué los archivos fuente y de configuración con `git add`.
+- [x] Revisé el contenido preparado con `git diff --cached`.
 
 ## 4. Crear y corregir commits
 
@@ -90,7 +90,7 @@ git commit -m "Agrega ejercicio de Git y Java"
 git log --oneline -1
 ```
 
-Ahora modifica una línea de `README.md` o de uno de los ejemplos. Revisa la diferencia antes de preparar el cambio:
+Ahora modifica una línea de `README.md` o de uno de los ejemplos. Revisa la diferencia antes de preparar el cambio: Hola, solo lo estoy modificando.
 
 ```bash
 git diff
@@ -108,6 +108,7 @@ git log --oneline -1
 `--amend` reemplaza el commit más reciente. No lo uses para reescribir un commit que otras personas ya descargaron sin acordarlo con el equipo.
 
 **Actividad:** después del primer commit, cambia una línea del README, ejecuta `git diff`, prepara el cambio y usa `git commit --amend --no-edit`. Comprueba que el último commit contiene la modificación.
+Linea para realizar el ejercicio.
 
 - [ ] Creé el primer commit con un mensaje descriptivo.
 - [ ] Revisé un cambio con `git diff` antes de prepararlo.
